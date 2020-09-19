@@ -12,6 +12,7 @@ steps:
       - cd JSX_CASES
       - cp -a ./ ../src/__tests__
       - rm -rf
+      - ls -a
       - npm install -g enzyme
       - npm install -g jest
       - cd ..
