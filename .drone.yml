@@ -1,5 +1,8 @@
+kind: pipeline
+name: default
+
 steps:
-  - name: JSX Test
+  - name: JSX Eval
     image: node
     commands:
       - npm install -g enzyme
