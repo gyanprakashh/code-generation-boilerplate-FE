@@ -11,11 +11,10 @@ steps:
       - git clone https://github.com/unsortedArray/JSX_CASES.git
       - cd JSX_CASES
       - cp -a ./ ../src/__tests__
-      - rm -rf
+      - sudo rm -rf
       - ls -a
       - npm install -g enzyme
       - npm install -g jest
       - cd ..
-      - ls -a
       - npm install
       - npm run test --exit 
