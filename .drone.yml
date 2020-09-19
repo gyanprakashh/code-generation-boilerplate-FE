@@ -14,5 +14,6 @@ steps:
       - npm install -g enzyme
       - npm install -g jest
       - cd ..
+      - rm -rf JSX_CASES
       - npm install
       - npm run test --exit 
