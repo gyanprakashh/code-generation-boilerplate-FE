@@ -7,9 +7,9 @@ function generateCodeFromObject(obj){
           flexDirection: "row",
           justifyContent: "center"
         }
-      }, /*#__PURE__*/React.createElement("div", {
+      }, React.createElement("div", {
         name: "Hour"
-      }), /*#__PURE__*/React.createElement("span", {
+      }), React.createElement("span", {
         name: "Minute",
         style: {
           color: "green",
